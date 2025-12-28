@@ -93,7 +93,7 @@ if(isset($_POST['update_quantity'])){
     </div>
 
     <div class="cart-total">
-        <p>grand total : <span>$<?php echo $grand_total; ?>/-</span></p>
+        <p>grand total : <span>Rs<?php echo $grand_total; ?>/-</span></p>
         <a href="shop.php" class="option-btn">continue shopping</a>
         <a href="checkout.php" class="btn  <?php echo ($grand_total > 1)?'':'disabled' ?>">proceed to checkout</a>
     </div>
@@ -110,4 +110,5 @@ if(isset($_POST['update_quantity'])){
 <script src="js/script.js"></script>
 
 </body>
+
 </html>
